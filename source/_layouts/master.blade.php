@@ -7,7 +7,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="/css/main.css">
     </head>
-    <body>
+    <body id="jeff">
         @include('_partials.menu')
 
         @yield('body')
