@@ -17,6 +17,7 @@
     "hasbin": "^1.2.3",
     "laravel-mix": "^1.7.0",
     "node-cmd": "^3.0.0",
+    "node-sass": "^4.7.2",
     "on-build-webpack": "^0.1.0",
     "path": "^0.12.7",
     "purgecss-webpack-plugin": "^0.13.0",
