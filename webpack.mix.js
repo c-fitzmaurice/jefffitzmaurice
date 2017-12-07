@@ -67,4 +67,4 @@ mix.sass('source/_assets/sass/main.scss', 'source/css')
 
 // JavaScript
 mix.js('source/_assets/js/main.js', 'source/js')
-    .extract(['Vue']);
+    .extract(['vue']);

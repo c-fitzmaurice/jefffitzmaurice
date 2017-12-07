@@ -7,11 +7,17 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="/css/main.css">
     </head>
-    <body id="jeff">
-        @include('_partials.menu')
+    <body>
+        <div id="jeff">
+            @include('_partials.menu')
 
-        @yield('body')
+            @yield('body')
 
-        @include('_partials.footer')
+            @include('_partials.footer')
+        </div>
+        
+        <script src="/js/manifest.js"></script>
+        <script src="/js/vendor.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
