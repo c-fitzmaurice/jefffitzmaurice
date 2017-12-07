@@ -1,9 +1,11 @@
 <header>
-    <nav>
-        <ul>
-            <li>This</li>
-            <li>is the</li>
-            <li>menu</li>
+    <nav> 
+       <ul>
+        @foreach ($page->collections as $name => $collection)
+            <li>
+                <a href="/{{ $name }}">{{ $page->links($name) }}</a>
+            </li>
+        @endforeach
         </ul>
     </nav>
 </header>
