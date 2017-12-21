@@ -4,9 +4,9 @@ return [
     'production' => false,
     'url' => 'https://jeff.dev/',
 
-    'site_name' => 'Fitz-Maurice Illustration',
+    'site_name' => 'Fitz-Maurice Digital Illustration',
     'name' => 'Fitz-Maurice',
-    'illus' => 'Illustration',
+    'illus' => 'Digital Illustration',
 
     'email_comcast' => 'jfitz-maurice@comcast.net',
     'email_gmail' => 'fitz.maurice.jeff@gmail.com',
