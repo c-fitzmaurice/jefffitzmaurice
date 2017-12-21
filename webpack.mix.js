@@ -43,7 +43,7 @@ if (mix.inProduction()) {
         })
     );
 } else {
-// Dev build 
+// Dev build
     plugins.push(
         new Watch({
             paths: ['source/**/*.md', 'source/**/*.php'],
@@ -67,4 +67,4 @@ mix.sass('source/_assets/sass/main.scss', 'source/css')
 
 // JavaScript
 mix.js('source/_assets/js/main.js', 'source/js')
-    .extract(['vue']);
+    .extract(['vue', 'vue-progressbar']);

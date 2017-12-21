@@ -9,13 +9,13 @@
   },
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.19.0",
     "browser-sync-webpack-plugin": "^1.2.0",
     "cross-env": "^5.1.1",
     "fs": "0.0.1-security",
     "glob-all": "^3.1.0",
     "hasbin": "^1.2.3",
-    "laravel-mix": "^1.7.0",
+    "laravel-mix": "^1.7.2",
     "node-cmd": "^3.0.0",
     "node-sass": "^4.7.2",
     "on-build-webpack": "^0.1.0",
@@ -26,6 +26,7 @@
     "yargs": "^4.8.1"
   },
   "dependencies": {
-    "vue": "^2.5.9"
+    "vue": "^2.5.13",
+    "vue-progressbar": "^0.7.3"
   }
 }

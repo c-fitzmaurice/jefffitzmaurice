@@ -194,6 +194,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Lato',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
@@ -207,6 +208,7 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
+      'Playfair Display',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
