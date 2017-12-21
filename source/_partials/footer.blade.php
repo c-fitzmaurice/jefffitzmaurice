@@ -1,3 +1,3 @@
 <footer>
-    <p>&amp; {{ date('Y') }} {{ $page->site_name }}</p>
+    <p>&copy; {{ date('Y') }} {{ $page->site_name }}</p>
 </footer>
