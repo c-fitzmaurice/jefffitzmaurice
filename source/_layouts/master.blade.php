@@ -14,7 +14,7 @@
 
             @include('_partials.menu')
 
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 mt-4">
                 @yield('body')
             </div>
 

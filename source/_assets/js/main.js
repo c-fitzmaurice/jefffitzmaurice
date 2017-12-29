@@ -7,14 +7,16 @@ Vue.use(VueProgressBar, {
   thickness: '4px'
 });
 
-// Vue.component('top-progress', require('./components/Progress.vue'));
+Vue.component('navigation', require('./components/Navigation.vue'));
 
 new Vue({
     el: '#jeff',
-    mounted() {
+    beforeCreate() {
         this.$Progress.start();
+    },
+    mounted() {
         setTimeout(() => {
             this.$Progress.finish();
-        }, 3000);
+        }, 1500);
     }
 });
