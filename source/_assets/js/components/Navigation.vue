@@ -1,6 +1,5 @@
 <script>
     export default {
-        props: ['links'],
         data() {
             return {
                 open: false

@@ -12,14 +12,14 @@
         </div>
     </div>
 
-    <navigation inline-template class="mt-8 font-sans border-solid border-b border-t sm:border-none border-black">
+    <navigation inline-template class="mt-8 font-sans border-solid border-grey-light border-b border-t">
         <div>
             <ul class="jeff-nav-u w-full text-center list-reset overflow-hidden" :class="{ 'open': open }">
-                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-black sm:border-none">
+                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
                     <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto sm:hidden" @click="toggle()">Menu</a>
                 </li>
-                <li class="sm:hidden inline-flex w-full sm:w-auto text-center border-solid border-b border-black sm:border-none">
-                    <div class="w-1/2 font-sans text-center border-solid border-r border-black">
+                <li class="sm:hidden inline-flex w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
+                    <div class="w-1/2 font-sans text-center border-solid border-r border-grey-light">
                         <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto" href="/about">About</a>
                     </div>
                     <div class="w-1/2 font-sans text-center">
@@ -27,8 +27,8 @@
                     </div>
                 </li>
                 @foreach ($page->collections as $name => $collection)
-                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-black sm:border-none">
-                    <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto" href="/{{ $name }}">{{ $page->links($name) }}</a>
+                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
+                    <a class="p-4 sm:px-2 md:px-4 no-underline inline-block w-full sm:w-auto" href="/{{ $name }}">{{ $page->links($name) }}</a>
                 </li>
                 @endforeach
             </ul>
