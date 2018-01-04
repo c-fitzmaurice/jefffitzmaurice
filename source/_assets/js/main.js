@@ -8,6 +8,7 @@ Vue.use(VueProgressBar, {
 });
 
 Vue.component('navigation', require('./components/Navigation.vue'));
+Vue.component('lightbox', require('./components/Lightbox.vue'));
 
 new Vue({
     el: '#jeff',
