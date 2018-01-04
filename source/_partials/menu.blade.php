@@ -1,12 +1,12 @@
-<header class="container mx-auto px-4">
+<header class="flex-no-grow container mx-auto px-4">
     <div class="flex content-around pt-6">
         <div class="w-1/3 font-sans hidden sm:block">
             <a class="no-underline text-black uppercase border-solid border-b-2 border-yellow" href="/about">About</a>
         </div>
-        <div class="w-full font-serif text-center">
+        <a href="/" class="w-full font-serif text-center no-underline jeff-no-hover">
             <div class="text-4xl md:text-5xl">Fitz<span class="text-yellow">-</span>Maurice</div>
             <div class="text-uppercase tracking-xwide sm:text-md md:text-lg">{{ $page->illus }}</div>
-        </div>
+        </a>
         <div class="w-1/3 font-sans hidden sm:block text-right">
             <a class="no-underline text-black uppercase border-solid border-b-2 border-yellow" href="/contact">Contact</a>
         </div>
@@ -14,7 +14,7 @@
 
     <navigation inline-template class="mt-8 font-sans border-solid border-grey-light border-b border-t">
         <div>
-            <ul class="jeff-nav-u w-full text-center list-reset overflow-hidden" :class="{ 'open': open }">
+            <ul class="jeff-nav w-full text-center list-reset overflow-hidden" :class="{ 'open': open }">
                 <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
                     <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto sm:hidden" @click="toggle()">Menu</a>
                 </li>
