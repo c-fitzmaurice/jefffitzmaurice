@@ -1,4 +1,5 @@
 window.Vue = require('vue');
+window.axios = require('axios');
 import VueProgressBar from 'vue-progressbar';
 
 Vue.use(VueProgressBar, {
@@ -9,6 +10,7 @@ Vue.use(VueProgressBar, {
 
 Vue.component('navigation', require('./components/Navigation.vue'));
 Vue.component('lightbox', require('./components/Lightbox.vue'));
+Vue.component('contact', require('./components/Contact.vue'));
 
 new Vue({
     el: '#jeff',

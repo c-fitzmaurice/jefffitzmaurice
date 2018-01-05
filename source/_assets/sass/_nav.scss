@@ -1,0 +1,12 @@
+ul.jeff-nav {
+    height: 50px;
+    transition: height 0.5s ease-in-out;
+    li {
+        &:last-child {
+            border: none;
+        }
+    }
+    &.open {
+        height: 305px;
+    }
+}

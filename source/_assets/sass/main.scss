@@ -1,54 +1,8 @@
 @tailwind preflight;
 
-// Link styles
-a {
-    &:hover,
-    &:active,
-    &:focus {
-        color: #C0A062 !important;
-    }
-
-    &:link,
-    &:visited {
-        color: #000000;
-    }
-
-    &.jeff-no-hover {
-        &:hover,
-        &:active,
-        &:focus {
-            color: #000000 !important;
-        }
-    }
-}
-
-// Image animations
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-img {
-    transition: box-shadow 0.5s ease-in-out;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-// Mobile navigation
-ul.jeff-nav {
-    height: 50px;
-    transition: height 0.5s ease-in-out;
-
-    li {
-        &:last-child {
-            border: none;
-        }
-    }
-
-    &.open {
-        height: 305px;
-    }
-}
+@import 'links';
+@import 'nav';
+@import 'contact';
+@import 'image';
 
 @tailwind utilities;

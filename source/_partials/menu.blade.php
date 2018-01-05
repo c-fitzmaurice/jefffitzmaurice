@@ -16,7 +16,7 @@
         <div>
             <ul class="jeff-nav w-full text-center list-reset overflow-hidden" :class="{ 'open': open }">
                 <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
-                    <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto sm:hidden" @click="toggle()">Menu</a>
+                    <a href="javascript:void(0);" class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto sm:hidden" @click="toggle()">Menu</a>
                 </li>
                 <li class="sm:hidden inline-flex w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
                     <div class="w-1/2 font-sans text-center border-solid border-r border-grey-light">

@@ -26,6 +26,7 @@
     "yargs": "^4.8.1"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "vue": "^2.5.13",
     "vue-gallery": "^1.2.4",
     "vue-progressbar": "^0.7.3"

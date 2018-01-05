@@ -1,0 +1,17 @@
+.field {
+    input,
+    textarea {
+        transition: background 0.2s ease;
+        &:focus {
+            outline: 0;
+        }
+        &:focus ~ label,
+        &:valid ~ label {
+            transform: translate(0, -30px);
+        }
+    }
+    label {
+        transform: translate(0, 0);
+        transition: all 0.2s ease;
+    }
+}
