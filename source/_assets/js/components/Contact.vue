@@ -14,7 +14,7 @@
         methods: {
             submit() {
                 let vm = this;
-                axios.post('https://formspree.io/colin@fitz-maurice.com', this.form)
+                axios.post('https://formspree.io/jfitz-maurice@comcast.net', this.form)
                     .then(response => {
                         if (response.data.success === 'email sent') {
                             vm.reset();
