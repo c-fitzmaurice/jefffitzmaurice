@@ -7,7 +7,8 @@
     }
 }
 
-img {
+a, img {
+    cursor: pointer;
     transition: box-shadow 0.5s ease-in-out;
     animation-name: fadeIn;
     animation-duration: 1s;
