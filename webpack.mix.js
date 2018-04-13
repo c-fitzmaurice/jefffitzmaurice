@@ -54,7 +54,7 @@ if (mix.inProduction()) {
 
 mix.webpackConfig({ plugins });
 mix.setPublicPath('source');
-mix.browserSync('https://jeff.dev');
+mix.browserSync('https://jefffitzmaurice.test/');
 
 // SCSS
 mix.sass('source/_assets/sass/main.scss', 'source/css')
