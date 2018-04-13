@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'url' => 'https://jeff.dev/',
+    'url' => 'https://jefffitzmaurice.test/',
 
     'site_name' => 'Fitz-Maurice Digital Illustration',
     'name' => 'Fitz-Maurice',
@@ -12,23 +12,6 @@ return [
     'email_gmail' => 'fitz.maurice.jeff@gmail.com',
 
     'collections' => [
-        'stylistic' => [
-            'path' => '{collection}/{-filename}'
-        ],
-        'realistic' => [
-            'path' => '{collection}/{-filename}'
-        ],
-        'food-and-packaging' => [
-            'path' => '{collection}/{-filename}'
-        ],
-        'websites' => [
-            'path' => '{collection}/{-filename}'
-        ],
-        'type-and-characters' => [
-            'path' => '{collection}/{-filename}'
-        ],
-    ],
-    'links' => function ($page, $collection_name) {
-        return ucwords(str_replace('and', '&', str_replace('-', ' ', $collection_name)));
-    },
+
+    ]
 ];

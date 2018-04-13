@@ -12,13 +12,10 @@
         </div>
     </div>
 
-    <navigation inline-template class="mt-8 font-sans border-solid border-grey-light border-b border-t">
+    <navigation inline-template class="mt-8 font-sans border-solid border-grey-light border-b border-t sm:hidden">
         <div>
             <ul class="jeff-nav w-full text-center list-reset overflow-hidden" :class="{ 'open': open }">
-                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
-                    <a href="javascript:void(0);" class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto sm:hidden" @click="toggle()">Menu</a>
-                </li>
-                <li class="sm:hidden inline-flex w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
+                <li class="inline-flex w-full sm:w-auto text-center">
                     <div class="w-1/2 font-sans text-center border-solid border-r border-grey-light">
                         <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto" href="/about">About</a>
                     </div>
@@ -26,11 +23,6 @@
                         <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto" href="/contact">Contact</a>
                     </div>
                 </li>
-                @foreach ($page->collections as $name => $collection)
-                <li class="inline-block w-full sm:w-auto text-center border-solid border-b border-grey-light sm:border-none">
-                    <a class="p-4 sm:px-2 md:px-4 no-underline inline-block w-full sm:w-auto" href="/{{ $name }}">{{ $page->links($name) }}</a>
-                </li>
-                @endforeach
             </ul>
         </div>
     </navigation>
