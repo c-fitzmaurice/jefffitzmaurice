@@ -11,7 +11,5 @@ return [
     'email_comcast' => 'jfitz-maurice@comcast.net',
     'email_gmail' => 'fitz.maurice.jeff@gmail.com',
 
-    'collections' => [
-
-    ]
+    'collections' => []
 ];

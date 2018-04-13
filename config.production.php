@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'url' => 'http://jefffitzmaurice.com/',
+    'url' => 'https://jefffitzmaurice.com/',
 ];
