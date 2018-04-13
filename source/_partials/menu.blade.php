@@ -1,4 +1,4 @@
-<header class="flex-no-grow container mx-auto px-4">
+<header class="container w-full flex-no-grow">
     <div class="flex content-around pt-6">
         <div class="w-1/3 font-sans hidden sm:block">
             <a class="no-underline text-black uppercase border-solid border-b-2 border-yellow" href="/about">About</a>

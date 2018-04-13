@@ -14,7 +14,7 @@
 
             @include('_partials.menu')
 
-            <div class="flex-grow container mx-auto px-4 mt-4">
+            <div class="flex-grow container mt-4">
                 @yield('body')
             </div>
 

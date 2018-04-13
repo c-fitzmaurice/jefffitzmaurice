@@ -5,8 +5,9 @@ const OnBuild = require('on-build-webpack');
 const Watch = require('webpack-watch');
 const bin = require('./tasks/bin');
 const env = argv.e || argv.env || 'local';
-const tailwindcss = require('tailwindcss');
+
 require('laravel-mix-purgecss');
+require('laravel-mix-tailwind');
 
 // Every build
 const plugins = [
@@ -39,10 +40,7 @@ mix
     ]
 })
 .sass('source/_assets/sass/main.scss', 'source/css')
-    .options({
-        processCssUrls: false,
-        postCss: [tailwindcss('./tailwind.js')]
-    })
+    .tailwind()
     .purgeCss()
     .version()
 .js('source/_assets/js/main.js', 'source/js')

@@ -29,6 +29,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "laravel-mix-purgecss": "^2.0.0",
+    "laravel-mix-tailwind": "^0.1.0",
     "vue": "^2.5.16",
     "vue-gallery": "^1.3.2",
     "vue-progressbar": "^0.7.4"

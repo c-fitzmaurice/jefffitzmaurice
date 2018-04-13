@@ -1,5 +1,5 @@
 <footer class="flex-no-grow mt-6 font-sans border-solid border-t border-grey-light">
-    <div class="container mx-auto px-4 py-2 flex items-center flex-wrap">
+    <div class="container py-2 flex items-center flex-wrap">
         <div class="w-full sm:w-1/2 text-center sm:text-left py-1">
             <p class="text-sm">&copy; {{ date('Y') }} {{ $page->site_name }}</p>
         </div>
