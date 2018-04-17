@@ -41,7 +41,12 @@ mix
 })
 .sass('source/_assets/sass/main.scss', 'source/css')
     .tailwind()
-    .purgeCss()
+    .purgeCss({
+        globs: [
+            path.join(__dirname, 'source/**/*.blade.php'),
+            path.join(__dirname, 'source/_assets/**/*.blade.php')
+        ]
+    })
     .version()
 .js('source/_assets/js/main.js', 'source/js')
     .extract(['axios', 'vue', 'vue-progressbar', 'vue-gallery']);

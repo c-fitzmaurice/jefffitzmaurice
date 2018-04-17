@@ -3,7 +3,7 @@
 @section('body')
 
     <div class="text-center">
-        <h1>Contact</h1>
+        <h1 class="uppercase text-md font-sans text-yellow">Contact</h1>
 
         <contact inline-template>
             <form class="w-full lg:w-2/3 flex flex-col m-auto mt-6">
