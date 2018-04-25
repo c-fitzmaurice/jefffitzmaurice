@@ -327,6 +327,8 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
+    'wider': '0.22em',
+    'widest': '0.35em',
   },
 
 
