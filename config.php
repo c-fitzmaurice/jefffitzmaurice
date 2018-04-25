@@ -13,7 +13,10 @@ return [
 
     'collections' => [
         'pieces' => [
-            'piece' => 'piece/{filename}'
+            'pieces' => 'pieces/{filename}',
+            'thumb' => function ($page, $img) {
+                return preg_replace('/.jpg/u', '-tn.jpg', $img);
+            }
         ],
     ]
 ];
