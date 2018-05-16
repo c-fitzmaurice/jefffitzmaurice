@@ -1,7 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-
     <h1 class="uppercase text-center text-md font-sans text-yellow">Jeff Fitz-Maurice</h1>
 
     <article class="flex mt-8">
@@ -13,5 +12,4 @@
             <img src="/images/washington-post-sunday/washington-post-sunday.jpg" alt="">
         </div>
     </article>
-
 @endsection
