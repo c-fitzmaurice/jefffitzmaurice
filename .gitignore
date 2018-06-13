@@ -6,10 +6,10 @@
 
 /source/js/
 /source/css/
-source/fonts/
+/source/fonts/
 /source/mix-manifest.json
 
 /source/images/vendor/blueimp-gallery/video-play.svg
 /source/images/vendor/blueimp-gallery/play-pause.svg
 /source/images/vendor/blueimp-gallery/error.svg
-source/images/.DS_Store
+/source/images/.DS_Store

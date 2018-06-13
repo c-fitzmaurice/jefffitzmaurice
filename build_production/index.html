@@ -19,7 +19,7 @@
         </div>
         <a href="/" class="w-full font-serif text-center no-underline jeff-no-hover">
             <div class="text-4xl md:text-5xl">Fitz<span class="text-yellow">-</span>Maurice</div>
-            <div class="text-uppercase tracking-xwide sm:text-md md:text-lg">Digital Illustration</div>
+            <div class="text-uppercase tracking-wider md:tracking-widest sm:text-md md:text-lg">Digital Illustration</div>
         </a>
         <div class="w-1/3 font-sans hidden sm:block text-right">
             <a class="no-underline text-black uppercase border-solid border-b-2 border-yellow" href="/contact">Contact</a>
@@ -43,36 +43,239 @@
 </header>
             <div class="flex-grow container mt-4">
                 
-<div class="flex flex-col sm:flex-row">
-    <div class="w-full sm:w-1/2 px-0 sm:pr-4 my-4">
-        <a href="">
+<div class="flex flex-wrap -mx-2">
             
-        </a>
-    </div>
-    <div class="w-full sm:w-1/2 px-0 sm:pl-4 my-4">
-        <a href="">
+        <lightbox inline-template image="/images/dead-man/dead-man.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/dead-man/dead-man-tn.jpg" alt="Dead Man">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
             
-        </a>
-    </div>
-</div>
-
-<div class="flex flex-col sm:flex-row mb-4">
-    <div class="w-full sm:w-1/3 px-0 sm:pr-4 my-4">
-        <a href="#">
+        <lightbox inline-template image="/images/southwest-chipotle/southwest-chipotle.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/southwest-chipotle/southwest-chipotle-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
             
-        </a>
-    </div>
-    <div class="w-full sm:w-1/3 px-0 sm:px-2 my-4">
-        <a href="#">
+        <lightbox inline-template image="/images/washington-post-sunday/washington-post-sunday.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/washington-post-sunday/washington-post-sunday-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
             
-        </a>
-    </div>
-    <div class="w-full sm:w-1/3 px-0 sm:pl-4 my-4">
-        <a href="#">
+        <lightbox inline-template image="/images/quartet/quartet.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/quartet/quartet-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
             
-        </a>
+        <lightbox inline-template image="/images/miami-superbowl/miami-superbowl.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/miami-superbowl/miami-superbowl-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/pensive/pensive.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/pensive/pensive-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/the-cat-who/the-cat-who.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/the-cat-who/the-cat-who-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/off-kilter/off-kilter.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/off-kilter/off-kilter-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/edys-ice-cream/edys-ice-cream.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/edys-ice-cream/edys-ice-cream-tn.jpg" alt="Edy&#039;s Ice Cream">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/muddy-waters/muddy-waters.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/muddy-waters/muddy-waters-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/fiction-can-be-murder/fiction-can-be-murder.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/fiction-can-be-murder/fiction-can-be-murder-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/pie-ala-mode/pie-ala-mode.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/pie-ala-mode/pie-ala-mode-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/alka-seltzer/alka-seltzer.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/alka-seltzer/alka-seltzer-tn.jpg" alt="Alka Seltzer">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/nfl-christmas-card/nfl-christmas-card.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/nfl-christmas-card/nfl-christmas-card-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/weather-vane/weather-vane.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/weather-vane/weather-vane-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/nfl-seahawks-christmas-card/nfl-seahawks-christmas-card.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/nfl-seahawks-christmas-card/nfl-seahawks-christmas-card-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/top-of-the-mournin/top-of-the-mournin.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/top-of-the-mournin/top-of-the-mournin-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/pig-bank/pig-bank.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/pig-bank/pig-bank-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/sunkist/sunkist.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/sunkist/sunkist-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/nfl-new-orleans-superbowl/nfl-new-orleans-superbowl.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/nfl-new-orleans-superbowl/nfl-new-orleans-superbowl-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/dressed-to-kilt/dressed-to-kilt.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/dressed-to-kilt/dressed-to-kilt-tn.jpg" alt="Dressed to Kilt">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/work-wide-churches/work-wide-churches.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/work-wide-churches/work-wide-churches-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/epic/epic.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/epic/epic-tn.jpg" alt="Epic Drinks">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/food-samples/food-samples.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/food-samples/food-samples-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/caramel-crush/caramel-crush.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/caramel-crush/caramel-crush-tn.jpg" alt="Alka Seltzer">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/foul-play-on-words/foul-play-on-words.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/foul-play-on-words/foul-play-on-words-tn.jpg" alt="Edy&#039;s Ice Cream">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/alpine-for-you/alpine-for-you.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/alpine-for-you/alpine-for-you-tn.jpg" alt="Alka Seltzer">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/hula-done-it/hula-done-it.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/hula-done-it/hula-done-it-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/scotts-lawn-weeds/scotts-lawn-weeds.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/scotts-lawn-weeds/scotts-lawn-weeds-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/orange-trees-of-versailles/orange-trees-of-versailles.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/orange-trees-of-versailles/orange-trees-of-versailles-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/nfl-tailgate/nfl-tailgate.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/nfl-tailgate/nfl-tailgate-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/skippy-peanut-butter/skippy-peanut-butter.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/skippy-peanut-butter/skippy-peanut-butter-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
+            
+        <lightbox inline-template image="/images/skate-crime/skate-crime.jpg">
+            <div class="inline-block w-1/2 md:w-1/3 px-2 mt-4">
+                <img class="shadow hover:shadow-lg min-w-full min-h-full" @click="index = 0" src="/images/skate-crime/skate-crime-tn.jpg" alt="Fiction Can Be Murder">
+                <gallery :images="images" :index="index" @close="index = null"></gallery>
+            </div>
+        </lightbox>
     </div>
-</div>
 
             </div>
 
