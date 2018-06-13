@@ -20,6 +20,10 @@ return [
             'link' => function ($page, $img) {
                 $link_parts = explode('/', $img);
                 return "/pieces/{$link_parts[2]}";
+            },
+            'slug' => function ($page, $img) {
+                $link_parts = explode('/', $img);
+                return $link_parts[2];
             }
         ],
     ]

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-yellow">
     <head>
         <title>{{ $page->site_name }}</title>
         <meta charset="utf-8">
@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100|Playfair+Display">
         <link rel="stylesheet" href="/css/main.css">
     </head>
-    <body>
+    <body class="bg-white">
         <div id="jeff" class="border-solid border-t-4 border-black flex flex-col min-h-screen">
             <vue-progress-bar></vue-progress-bar>
 
@@ -20,7 +20,6 @@
 
             @include('_partials.footer')
         </div>
-
         <script src="/js/manifest.js"></script>
         <script src="/js/vendor.js"></script>
         <script src="/js/main.js"></script>

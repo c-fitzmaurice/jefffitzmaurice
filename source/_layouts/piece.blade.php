@@ -11,7 +11,6 @@
             </div>
         </lightbox>
     </div>
-
     <div class="w-full md:w-1/3 md:px-4 mt-4 md:mt-0">
         <h1 class="border-b-2 border-yellow pb-2 mb-4">{{ $page->title }}</h1>
 
