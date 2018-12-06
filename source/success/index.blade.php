@@ -7,6 +7,12 @@
 
         <form name="contact" method="POST" action="/success" class="w-full lg:w-2/3 flex flex-col m-auto mt-6" netlify>
 
+            <div class="bg-yellow-lightest border-t border-b border-yellow px-4 py-3 mb-4" role="alert">
+                <p class="font-bold">Thank you!</p>
+                <p class="text-sm">I got your email and I will get back to you as soon as I can.</p>
+            </div>
+
+
             <div class="flex flex-col md:flex-row">
                 <div class="w-full field flex items-center border-b border-b-2 border-grey-light my-4 mr-0 md:mr-6">
                     <input id="name" name="name" type="text" class="appearance-none bg-transparent border-none w-full text-grey-darker p-2 focus:bg-grey-lighter" required>

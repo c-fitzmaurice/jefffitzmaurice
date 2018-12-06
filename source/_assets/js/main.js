@@ -10,16 +10,15 @@ Vue.use(VueProgressBar, {
 
 Vue.component('navigation', require('./components/Navigation.vue'));
 Vue.component('lightbox', require('./components/Lightbox.vue'));
-Vue.component('contact', require('./components/Contact.vue'));
 
 new Vue({
-    el: '#jeff',
-    beforeCreate() {
-        this.$Progress.start();
-    },
-    mounted() {
-        setTimeout(() => {
-            this.$Progress.finish();
-        }, 1500);
-    }
+  el: '#jeff',
+  beforeCreate() {
+    this.$Progress.start();
+  },
+  mounted() {
+    setTimeout(() => {
+      this.$Progress.finish();
+    }, 1500);
+  }
 });

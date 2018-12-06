@@ -1,37 +1,36 @@
 {
   "scripts": {
-    "development": "cross-env NODE_ENV=development webpack --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev": "npm run development",
-    "prod": "npm run production",
-    "watch": "npm run development -- --watch",
-    "deploy": "npm run prod && git add build_production && git commit -m 'Build for deploy' && git subtree push --prefix build_production subtree_origin gh-pages"
+    "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "npm run local",
+    "watch": "npm run local -- --watch"
   },
   "private": true,
   "devDependencies": {
-    "ajv": "^6.5.2",
-    "browser-sync": "^2.24.5",
+    "ajv": "^6.6.1",
+    "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^5.2.0",
     "fs": "0.0.1-security",
     "glob-all": "^3.1.0",
     "hasbin": "^1.2.3",
-    "laravel-mix": "^2.1.11",
+    "laravel-mix": "^3.0.0",
     "node-cmd": "^3.0.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.10.0",
     "on-build-webpack": "^0.1.0",
     "path": "^0.12.7",
-    "purgecss-webpack-plugin": "^0.22.1",
-    "tailwindcss": "^0.5.3",
+    "purgecss-webpack-plugin": "^1.4.0",
+    "tailwindcss": "^0.7.2",
     "webpack-watch": "^0.2.0",
-    "yargs": "^11.1.0"
+    "yargs": "12.0.5"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "laravel-mix-purgecss": "^2.2.0",
+    "laravel-mix-purgecss": "3.0.0",
     "laravel-mix-tailwind": "^0.1.0",
-    "vue": "^2.5.16",
-    "vue-gallery": "^1.4.0",
+    "vue": "^2.5.17",
+    "vue-gallery": "^1.5.0",
     "vue-progressbar": "^0.7.5"
   }
 }
