@@ -1,5 +1,4 @@
 window.Vue = require('vue');
-window.axios = require('axios');
 import VueProgressBar from 'vue-progressbar';
 
 Vue.use(VueProgressBar, {
@@ -8,8 +7,9 @@ Vue.use(VueProgressBar, {
   thickness: '4px'
 });
 
-Vue.component('navigation', require('./components/Navigation.vue'));
-Vue.component('lightbox', require('./components/Lightbox.vue'));
+// auto require all single file components
+const files = require.context('./', true, /\.vue$/i);
+files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 new Vue({
   el: '#jeff',

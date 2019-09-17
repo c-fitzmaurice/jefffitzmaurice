@@ -49,4 +49,4 @@ mix
     })
     .version()
 .js('source/_assets/js/main.js', 'source/js')
-    .extract(['axios', 'vue', 'vue-progressbar', 'vue-gallery']);
+    .version();
