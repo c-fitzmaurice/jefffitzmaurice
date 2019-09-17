@@ -29,7 +29,7 @@
                 <label for="subject" class="py-1 px-2 absolute inline-block">Message</label>
             </div>
 
-            <button type="submit" class="w-1/2 md:w-24 border border-black py-2 px-4 rounded hover:bg-yellow hover:text-white hover:border-yellow">Submit</button>
+            <button type="submit" class="w-full md:w-24 border border-black py-2 px-4 rounded hover:bg-yellow hover:text-white hover:border-yellow">Submit</button>
         </form>
     </div>
 

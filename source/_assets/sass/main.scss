@@ -6,6 +6,11 @@
 @import 'contact';
 @import 'image';
 
+html, body {
+    -webkit-font-feature-settings: "kern" 1;
+    text-rendering: geometricPrecision;
+}
+
 .w-49 {
     width: 49%;
 }
