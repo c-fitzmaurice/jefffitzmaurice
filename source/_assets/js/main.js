@@ -19,6 +19,6 @@ new Vue({
   mounted() {
     setTimeout(() => {
       this.$Progress.finish();
-    }, 1500);
+    }, 1000);
   }
 });

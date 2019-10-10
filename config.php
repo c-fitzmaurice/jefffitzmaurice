@@ -30,8 +30,5 @@ return [
                 return $link_parts[0];
             }
         ],
-        'full' => function ($page, $img) {
-            return "https://res.cloudinary.com/fitz/jeff/{$img}";
-        },
     ]
 ];

@@ -9,7 +9,7 @@
             <p class="mb-4 leading-loose">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis.</p>
         </div>
         <div class="w-full md:w-1/2">
-            <img src="/images/washington-post-sunday/washington-post-sunday.jpg" alt="">
+            <img src="https://res.cloudinary.com/fitz/jeff/washington-post-sunday/washington-post-sunday.jpg" alt="Washington Post Sunday Article Piece">
         </div>
     </article>
 @endsection
