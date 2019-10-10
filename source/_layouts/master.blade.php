@@ -22,5 +22,6 @@
             @include('_partials.footer')
         </div>
         <script src="/js/main.js"></script>
+        @includeWhen($page->production, '_partials.analytics')
     </body>
 </html>
