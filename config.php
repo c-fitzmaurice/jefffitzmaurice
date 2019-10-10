@@ -14,17 +14,24 @@ return [
     'collections' => [
         'pieces' => [
             'pieces' => 'pieces/{filename}',
+            'full' => function ($page, $img) {
+                return "https://res.cloudinary.com/fitz/jeff/{$img}";
+            },
             'thumb' => function ($page, $img) {
-                return preg_replace('/.jpg/u', '-tn.jpg', $img);
+                $thumb = preg_replace('/.jpg/u', '-tn.jpg', $img);
+                return "https://res.cloudinary.com/fitz/image/upload/w_400,ar_1:1,c_fill,g_auto,e_art:hokusai/v1570663159/jeff/{$thumb}";
             },
             'link' => function ($page, $img) {
                 $link_parts = explode('/', $img);
-                return "/pieces/{$link_parts[2]}";
+                return "/pieces/{$link_parts[0]}";
             },
             'slug' => function ($page, $img) {
                 $link_parts = explode('/', $img);
-                return $link_parts[2];
+                return $link_parts[0];
             }
         ],
+        'full' => function ($page, $img) {
+            return "https://res.cloudinary.com/fitz/jeff/{$img}";
+        },
     ]
 ];
