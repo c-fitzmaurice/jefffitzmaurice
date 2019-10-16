@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Food Samples
 img: food-samples/food-samples.jpg
 ---
 

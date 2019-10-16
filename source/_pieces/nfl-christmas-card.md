@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: NFL Christmas Card
 img: nfl-christmas-card/nfl-christmas-card.jpg
 ---
 

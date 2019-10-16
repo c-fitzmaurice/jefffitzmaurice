@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Alka Seltzer
+title: Alpine for You
 img: alpine-for-you/alpine-for-you.jpg
 ---
 

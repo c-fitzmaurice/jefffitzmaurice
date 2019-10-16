@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Weather Vane
 img: weather-vane/weather-vane.jpg
 ---
 

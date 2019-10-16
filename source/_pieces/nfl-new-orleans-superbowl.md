@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: New Orleans Super Bowl
 img: nfl-new-orleans-superbowl/nfl-new-orleans-superbowl.jpg
 ---
 

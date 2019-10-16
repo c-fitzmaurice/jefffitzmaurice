@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Quartet
 img: quartet/quartet.jpg
 ---
 

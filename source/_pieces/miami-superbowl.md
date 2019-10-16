@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Miami Superbowl
 img: miami-superbowl/miami-superbowl.jpg
 ---
 

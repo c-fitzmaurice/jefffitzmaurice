@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Southwest Chipotle
 img: southwest-chipotle/southwest-chipotle.jpg
 ---
 

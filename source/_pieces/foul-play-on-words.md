@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Edy's Ice Cream
+title: Foul Play on Words
 img: foul-play-on-words/foul-play-on-words.jpg
 ---
 

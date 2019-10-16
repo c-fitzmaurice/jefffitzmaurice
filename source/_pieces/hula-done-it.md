@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Hula Done It
 img: hula-done-it/hula-done-it.jpg
 ---
 

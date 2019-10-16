@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Pensive
 img: pensive/pensive.jpg
 ---
 

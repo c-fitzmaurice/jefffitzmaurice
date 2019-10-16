@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Washington Post Sunday Feature
 img: washington-post-sunday/washington-post-sunday.jpg
 ---
 

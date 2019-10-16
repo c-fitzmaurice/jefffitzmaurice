@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: Piggy Bank
 img: pig-bank/pig-bank.jpg
 ---
 

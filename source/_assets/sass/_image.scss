@@ -14,3 +14,9 @@ a, img {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
+
+.copy {
+    p {
+        @apply mb-4 text-lg;
+    }
+}

@@ -1,6 +1,6 @@
 ---
 extends: _layouts.piece
-title: Fiction Can Be Murder
+title: The Cat Who
 img: the-cat-who/the-cat-who.jpg
 ---
 
