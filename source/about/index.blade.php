@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <h1 class="uppercase text-center text-md font-sans text-yellow">Jeff Fitz-Maurice</h1>
+    <h1 class="uppercase text-center text-md font-sans text-yellow">Jeff<br>Fitz-Maurice</h1>
 
     <article class="flex flex-col flex-col-reverse md:flex-row mt-8">
         <div class="w-full md:w-1/2 pr-4">
