@@ -11,6 +11,8 @@ return [
     'email_comcast' => 'jfitz-maurice@comcast.net',
     'email_gmail' => 'fitz.maurice.jeff@gmail.com',
 
+    'meta_description' => 'Jeff Fitz-Maurice Digital Illustration. Over the years I have had the privelage of creating illustrations for many of the highest profile companies, advertising agencies and publishers in the country, work includes The National Football League, AT&T, Merck, Bristol-Myers Squibb, Campbell’s Soup, Edy’s Ice Cream, McDonalds, Coke, Seagram’s, Random House Books, Bantam Books, Penguin Books, Pocket Books, Berkley Publishing and The Washington Post.',
+
     'collections' => [
         'pieces' => [
             'pieces' => 'pieces/{filename}',
@@ -25,6 +27,10 @@ return [
                 $link_parts = explode('/', $img);
                 return "/pieces/{$link_parts[0]}";
             },
+            'slug' => function ($page, $img) {
+                $link_parts = explode('/', $img);
+                return $link_parts[0];
+            }
         ],
     ]
 ];
