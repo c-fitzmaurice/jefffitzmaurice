@@ -16,6 +16,7 @@ return [
     'collections' => [
         'pieces' => [
             'pieces' => 'pieces/{filename}',
+            'sort' => 'order',
             'full' => function ($page, $img) {
                 return "https://res.cloudinary.com/fitz/jeff/{$img}";
             },

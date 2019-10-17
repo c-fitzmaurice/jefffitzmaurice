@@ -2,6 +2,7 @@
 extends: _layouts.piece
 title: Work Wide Churches
 img: work-wide-churches/work-wide-churches.jpg
+order: 33
 ---
 
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.
