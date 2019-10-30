@@ -2,7 +2,7 @@
 extends: _layouts.piece
 title: Food Samples
 img: food-samples/food-samples.jpg
-order: 9
+order: 30
 ---
 
 This post is *profoundly* interesting.

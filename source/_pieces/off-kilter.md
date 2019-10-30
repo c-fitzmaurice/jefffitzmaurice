@@ -2,7 +2,7 @@
 extends: _layouts.piece
 title: Off Kilter
 img: off-kilter/off-kilter.jpg
-order: 18
+order: 17
 ---
 
 This post is *profoundly* interesting.

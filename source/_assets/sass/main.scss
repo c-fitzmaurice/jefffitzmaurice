@@ -11,4 +11,8 @@ html, body {
     text-rendering: geometricPrecision;
 }
 
+.about p {
+    @apply mb-4 leading-loose text-lg text-grey-darker;
+}
+
 @tailwind utilities;

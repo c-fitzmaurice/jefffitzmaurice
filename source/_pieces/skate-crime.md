@@ -2,7 +2,7 @@
 extends: _layouts.piece
 title: Skate Crime
 img: skate-crime/skate-crime.jpg
-order: 25
+order: 24
 ---
 
 This post is *profoundly* interesting.
