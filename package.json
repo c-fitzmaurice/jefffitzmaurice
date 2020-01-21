@@ -33,7 +33,6 @@
     "dependencies": {
         "laravel-mix-purgecss": "^4.2.0",
         "laravel-mix-tailwind": "^0.1.0",
-        "purgecss-webpack-plugin": "1.1.4",
         "vue": "^2.6.11",
         "vue-gallery": "^2.0.1",
         "vue-progressbar": "^0.7.5"
