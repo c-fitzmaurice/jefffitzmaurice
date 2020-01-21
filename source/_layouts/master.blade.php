@@ -8,7 +8,7 @@
         <meta name="description" content="{{ $page->meta_description }}">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap|Playfair+Display">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body class="bg-white">
         <div id="jeff" class="border-solid border-t-4 border-black flex flex-col min-h-screen">
@@ -22,7 +22,7 @@
 
             @include('_partials.footer')
         </div>
-        <script src="/js/main.js"></script>
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         @includeWhen($page->production, '_partials.analytics')
     </body>
 </html>

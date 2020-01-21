@@ -1,16 +1,18 @@
 /build_local/
-/build_production/
-
-/vendor/
+/cache/
 /node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
+yarn-error.log
 
-/source/js/
-/source/css/
+# Optional ignores
+/build_staging/
+/build_production/
+/source/assets/build/mix-manifest.json
+/source/assets/build/css/
+/source/assets/build/fonts/
+/source/assets/build/js/
 /source/fonts/
 /source/images/
-/source/mix-manifest.json
-
-/source/images/vendor/blueimp-gallery/video-play.svg
-/source/images/vendor/blueimp-gallery/play-pause.svg
-/source/images/vendor/blueimp-gallery/error.svg
-/source/images/.DS_Store
