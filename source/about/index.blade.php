@@ -11,7 +11,7 @@
             <p>The National Football League, Celestial Seasoning’s, AT&amp;T, Merck, Bristol-Myers Squibb, Alka Seltzer, Acme Foods, Turkey Hill, Campbell’s, Edy’s Ice Cream, McDonalds, Coke, Seagram’s, Random House Books, Bantam Books, Penguin Books, Pocket Books, Berkley Publishing, The Washington Post</p>
         </div>
         <div class="w-full md:w-1/2">
-            <img src="https://res.cloudinary.com/fitz/jeff/washington-post-sunday/washington-post-sunday.jpg" alt="Washington Post Sunday Article Piece">
+            <img loading="lazy" src="https://res.cloudinary.com/fitz/jeff/washington-post-sunday/washington-post-sunday.jpg" alt="Washington Post Sunday Article Piece">
         </div>
     </article>
 @endsection

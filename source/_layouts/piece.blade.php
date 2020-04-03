@@ -6,7 +6,7 @@
     <div class="w-full md:w-60">
         <lightbox inline-template image="{{ $page->full($page->img) }}">
             <div>
-                <img class="shadow hover:shadow-lg w-full"@click="index = 0" src="{{ $page->full($page->img) }}"  alt="{{ $page->title }}">
+                <img loading="lazy" class="shadow hover:shadow-lg w-full"@click="index = 0" src="{{ $page->full($page->img) }}"  alt="{{ $page->title }}">
                 <gallery :images="images" :index="index" @close="index = null"></gallery>
             </div>
         </lightbox>
