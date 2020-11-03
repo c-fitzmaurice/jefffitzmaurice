@@ -9,21 +9,21 @@
     "watch": "npm run local -- --watch"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.13",
     "browser-sync-webpack-plugin": "^2.0.1",
     "cross-env": "^7.0.2",
     "extra-watch-webpack-plugin": "^1.0.3",
     "hasbin": "^1.2.3",
-    "laravel-mix": "^5.0.5",
+    "laravel-mix": "^5.0.7",
     "node-cmd": "^3.0.0",
-    "sass": "^1.26.10",
-    "sass-loader": "^10.0.1",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.5",
     "vue-template-compiler": "^2.6.12",
     "yargs": "^15.4.1"
   },
   "dependencies": {
     "laravel-mix-purgecss": "^5.0.0",
-    "laravel-mix-tailwind": "^0.1.0",
+    "laravel-mix-tailwind": "^0.1.1",
     "tailwindcss": "^0.7.4",
     "vue": "^2.6.12",
     "vue-gallery": "^2.0.1",
