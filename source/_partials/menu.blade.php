@@ -3,7 +3,7 @@
         <div class="w-1/3 font-sans hidden sm:block">
             <a class="no-underline text-black uppercase border-solid border-b-2 border-yellow" href="/about">About</a>
         </div>
-        <a href="/" class="w-full font-serif text-center no-underline jeff-no-hover">
+        <a href="/" class="text-black w-full font-serif text-center no-underline jeff-no-hover">
             <div class="text-4xl md:text-5xl">Fitz<span class="text-yellow">-</span>Maurice</div>
             <div class="text-uppercase tracking-wider md:tracking-widest sm:text-md md:text-lg">{{ $page->illus }}</div>
         </a>
