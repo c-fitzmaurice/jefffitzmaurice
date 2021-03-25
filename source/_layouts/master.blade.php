@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-yellow">
+<html lang="en" class="bg-gold">
     <head>
         <title>{{ $page->site_name }}</title>
         <meta charset="utf-8">

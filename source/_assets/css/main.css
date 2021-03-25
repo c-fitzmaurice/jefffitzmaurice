@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+
+html, body {
+    -webkit-font-feature-settings: "kern" 1;
+    text-rendering: geometricPrecision;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #C0A062 !important;
+}
+a.jeff-no-hover:hover,
+a.jeff-no-hover:active,
+a.jeff-no-hover:focus {
+    color: #000000 !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+a, img {
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.field input,
+.field textarea {
+    transition: background 0.2s ease;
+}
+.field input:focus,
+.field textarea:focus {
+    outline: 0;
+}
+.field input:focus ~ label,
+.field input:valid ~ label,
+.field textarea:focus ~ label,
+.field textarea:valid ~ label {
+    transform: translate(0, -30px);
+}
+.field label {
+    transform: translate(0, 0);
+    transition: all 0.2s ease;
+}
+
+.copy p {
+    @apply mb-4 text-xl;
+}
+
+.about p {
+    @apply mb-4 leading-loose text-lg text-gray-600;
+}
+
+@tailwind utilities;
