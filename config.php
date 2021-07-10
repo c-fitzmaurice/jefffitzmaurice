@@ -31,7 +31,7 @@ return [
             'slug' => function ($page, $img) {
                 $link_parts = explode('/', $img);
                 return $link_parts[0];
-            }
+            },
         ],
-    ]
+    ],
 ];
