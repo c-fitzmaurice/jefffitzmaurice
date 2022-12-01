@@ -31,7 +31,7 @@
                     x-on:click="open = false"
                     class="relative flex min-h-screen items-center justify-center"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 text-gold absolute top-2 right-2 hover:cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 text-gold absolute top-2 right-2 hover:cursor-pointer z-50">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
 
@@ -39,7 +39,7 @@
                         x-on:click.stop
                         x-trap.noscroll.inert="open" 
                         loading="lazy" 
-                        class="shadow-lg h-screen"
+                        class="shadow-lg w-full h-auto"
                         src="{{ $page->full($page->img) }}"
                         alt="{{ $page->title }}"
                     >
