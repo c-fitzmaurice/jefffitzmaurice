@@ -3,7 +3,7 @@
 @section('body')
 <h1 class="uppercase text-center text-3xl font-sans text-gold">Jeff<br>Fitz-Maurice</h1>
 
-<article class="flex flex-col flex-col-reverse md:flex-row mt-8">
+<article class="flex flex-col md:flex-row mt-8">
     <div class="w-full md:w-1/2 pr-4 about">
         <p>It has been a real pleasure and an honor over the years having the privilege of creating illustrations for
             many of the highest profile companies, brands, advertising agencies and publishers in the country.</p>
