@@ -39,7 +39,7 @@
                         x-on:click.stop
                         x-trap.noscroll.inert="open" 
                         loading="lazy" 
-                        class="shadow-lg w-full h-auto"
+                        class="shadow-lg w-full max-w-7xl h-auto"
                         src="{{ $page->full($page->img) }}"
                         alt="{{ $page->title }}"
                     >
