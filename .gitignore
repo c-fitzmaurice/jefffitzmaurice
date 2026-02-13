@@ -8,8 +8,8 @@ npm-debug.log
 yarn-error.log
 
 # Optional ignores
-/build_staging/
-/build_production/
+# /build_staging/
+# /build_production/
 /source/assets/build/manifest.json
 /source/assets/build/.vite/
 /source/assets/build/assets/
