@@ -5,7 +5,10 @@
 <div class="text-center">
     <h1 class="uppercase text-md font-sans text-gold">Contact</h1>
 
-    <form name="contact" method="POST" action="/success" class="w-full lg:w-2/3 flex flex-col m-auto mt-6" netlify>
+    <!-- FormSubmit endpoint: https://formsubmit.co/ -->
+    <form name="contact" method="POST" action="https://formsubmit.co/{{ $page->email_gmail }}" class="w-full lg:w-2/3 flex flex-col m-auto mt-6">
+        <input type="hidden" name="_next" value="{{ $page->url }}success/">
+        <input type="hidden" name="_captcha" value="false">
 
         <div class="bg-yellow-200 border-t border-b border-yellow-500 px-4 py-3 mb-4" role="alert">
             <p class="font-bold">Thank you!</p>
