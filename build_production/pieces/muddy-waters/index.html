@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gold">
+    <head>
+        <title>Fitz-Maurice Digital Illustration</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Jeff Fitz-Maurice Digital Illustration. Over the years I have had the privelage of creating illustrations for many of the highest profile companies, advertising agencies and publishers in the country, work includes The National Football League, AT&amp;T, Merck, Bristol-Myers Squibb, Campbell’s Soup, Edy’s Ice Cream, McDonalds, Coke, Seagram’s, Random House Books, Bantam Books, Penguin Books, Pocket Books, Berkley Publishing and The Washington Post.">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap|Playfair+Display">
+                <link rel="stylesheet" href="/assets/build/assets/main-B-r-Mzrr.css">
+        <script defer type="module" src="/assets/build/assets/main-l0sNRNKZ.js"></script>
+        <script defer src="https://unpkg.com/@alpinejs/focus@3.10.5/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+    </head>
+    <body class="bg-white">
+        <div id="jeff" class="border-solid border-t-4 border-black flex flex-col min-h-screen">
+            <header class="container w-full flex-no-grow">
+    <div class="flex content-around pt-6">
+        <div class="w-1/3 font-sans hidden sm:block">
+            <a class="no-underline text-black uppercase border-solid border-b-2 border-gold" href="/about">About</a>
+        </div>
+        <a href="/" class="text-black w-full font-serif text-center no-underline jeff-no-hover">
+            <div class="text-4xl md:text-5xl">Fitz<span class="text-gold">-</span>Maurice</div>
+            <div class="uppercase tracking-wider md:tracking-widest sm:text-md md:text-lg">Digital Illustration</div>
+        </a>
+        <div class="w-1/3 font-sans hidden sm:block text-right">
+            <a class="no-underline text-black uppercase border-solid border-b-2 border-gold"
+                href="/contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="mt-8 font-sans border-solid border-grey-light border-b border-t sm:hidden">
+        <ul class="jeff-nav w-full text-center list-reset overflow-hidden">
+            <li class="inline-flex w-full sm:w-auto text-center">
+                <div class="w-1/2 font-sans text-center border-solid border-r border-grey-light">
+                    <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto uppercase" href="/about">About</a>
+                </div>
+                <div class="w-1/2 font-sans text-center">
+                    <a class="sm:mx-4 py-4 no-underline inline-block w-full sm:w-auto uppercase" href="/contact">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+
+            <div class="flex-grow container mt-4">
+                
+<div class="flex flex-col md:flex-row">
+    <div class="w-full md:w-2/3">
+        <div class="flex justify-center">
+            <a
+                href="https://res.cloudinary.com/fitz/jeff/muddy-waters/muddy-waters.jpg"
+                data-lightbox-trigger
+                class="inline-block w-full"
+                aria-label="Open Muddy Waters in full-screen lightbox"
+            >
+                <img loading="lazy" class="shadow hover:shadow-lg w-full" src="https://res.cloudinary.com/fitz/jeff/muddy-waters/muddy-waters.jpg" alt="Muddy Waters">
+            </a>
+        </div>
+
+        <div
+            data-lightbox
+            class="hidden fixed inset-0 z-50 overflow-y-auto p-4 sm:p-8"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Image lightbox"
+        >
+            <div
+                data-lightbox-backdrop
+                class="fixed inset-0 bg-black/80 opacity-0 transition-opacity duration-300 ease-out"
+                aria-hidden="true"
+            ></div>
+
+            <button
+                type="button"
+                data-lightbox-close
+                class="fixed top-4 right-4 z-20 text-gold hover:text-white focus:outline-none opacity-0 transition-opacity duration-300 ease-out"
+                aria-label="Close lightbox"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-9 h-9">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <img
+                data-lightbox-image
+                class="relative z-10 block mx-auto w-full h-auto max-w-7xl shadow-lg opacity-0 transition-opacity duration-300 ease-out"
+                style="animation: none;"
+                alt=""
+            >
+        </div>
+    </div>
+    
+    <div class="w-full md:w-1/3 md:px-4 mt-8 md:mt-0">
+        <h1 class="border-b-2 border-gold pb-2 mb-4 font-serif text-4xl">Muddy Waters</h1>
+
+        
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const trigger = document.querySelector('[data-lightbox-trigger]');
+        const lightbox = document.querySelector('[data-lightbox]');
+        const backdrop = document.querySelector('[data-lightbox-backdrop]');
+        const lightboxImage = document.querySelector('[data-lightbox-image]');
+        const closeButton = document.querySelector('[data-lightbox-close]');
+
+        if (!trigger || !lightbox || !backdrop || !lightboxImage || !closeButton) {
+            return;
+        }
+
+        let previousFocus = null;
+        let hideTimeout = null;
+
+        const fadeIn = function (element) {
+            element.classList.remove('opacity-0');
+            element.classList.add('opacity-100');
+        };
+
+        const fadeOut = function (element) {
+            element.classList.remove('opacity-100');
+            element.classList.add('opacity-0');
+        };
+
+        const openLightbox = function (event) {
+            event.preventDefault();
+
+            const image = trigger.querySelector('img');
+
+            if (hideTimeout) {
+                window.clearTimeout(hideTimeout);
+                hideTimeout = null;
+            }
+
+            previousFocus = document.activeElement;
+
+            lightboxImage.src = trigger.href;
+            lightboxImage.alt = image ? image.alt : '';
+            lightbox.classList.remove('hidden');
+            lightbox.scrollTop = 0;
+            document.body.classList.add('overflow-hidden');
+
+            window.requestAnimationFrame(function () {
+                fadeIn(backdrop);
+                fadeIn(lightboxImage);
+                fadeIn(closeButton);
+            });
+
+            closeButton.focus();
+        };
+
+        const closeLightbox = function () {
+            fadeOut(backdrop);
+            fadeOut(lightboxImage);
+            fadeOut(closeButton);
+
+            hideTimeout = window.setTimeout(function () {
+                lightbox.classList.add('hidden');
+                lightboxImage.removeAttribute('src');
+                document.body.classList.remove('overflow-hidden');
+                hideTimeout = null;
+            }, 300);
+
+            if (previousFocus && typeof previousFocus.focus === 'function') {
+                previousFocus.focus();
+            }
+        };
+
+        trigger.addEventListener('click', openLightbox);
+        closeButton.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', function (event) {
+            if (event.target === lightbox || event.target === backdrop) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
+    });
+</script>
+
+            </div>
+
+            <footer class="flex-no-grow mt-6 font-sans border-solid border-t border-grey-light">
+    <div class="container py-2 flex items-center flex-wrap">
+        <div class="w-full sm:w-1/2 text-center sm:text-left py-1">
+            <p class="text-sm">&copy; 2026 Fitz-Maurice Digital Illustration</p>
+        </div>
+        <div class="w-full sm:w-1/2 text-center sm:text-right py-1">
+            <p class="text-sm">Website by <a class="border-b border-gold" href="https://fitz-maurice.com" target="_blank" rel="noreferrer">Fitz Creative</a></p>
+        </div>
+    </div>
+</footer>
+        </div>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48741641-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-48741641-5');
+</script>
+    </body>
+</html>
