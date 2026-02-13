@@ -8,7 +8,9 @@
         <meta name="description" content="{{ $page->meta_description }}">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap|Playfair+Display">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        @viteRefresh()
+        <link rel="stylesheet" href="{{ vite('source/_assets/css/main.css') }}">
+        <script defer type="module" src="{{ vite('source/_assets/js/main.js') }}"></script>
         <script defer src="https://unpkg.com/@alpinejs/focus@3.10.5/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
     </head>
@@ -22,7 +24,6 @@
 
             @include('_partials.footer')
         </div>
-        {{-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
         @includeWhen($page->production, '_partials.analytics')
     </body>
 </html>

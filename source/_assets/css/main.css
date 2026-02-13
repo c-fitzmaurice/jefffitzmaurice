@@ -1,5 +1,16 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
+@source "../../**/*.{html,md,js,php,vue}";
+@config "../../../tailwind.config.mjs";
+
+@utility flex-no-grow {
+    flex-grow: 0;
+}
+
+@utility list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 html, body {
     -webkit-font-feature-settings: "kern" 1;
@@ -60,5 +71,3 @@ a, img {
 .about p {
     @apply mb-4 leading-loose text-lg text-gray-600;
 }
-
-@tailwind utilities;
