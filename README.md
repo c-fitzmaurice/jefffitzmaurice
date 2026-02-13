@@ -1,1 +1,0 @@
-# Fitz-Maurice Illustration
