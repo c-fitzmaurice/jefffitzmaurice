@@ -9,6 +9,6 @@
     "@tailwindcss/vite": "^4.1.18",
     "@tighten/jigsaw-vite-plugin": "^1.0.1",
     "tailwindcss": "^4.1.18",
-    "vite": "^6.4.1"
+    "vite": "^6.4.2"
   }
 }
